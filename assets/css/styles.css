@@ -2,17 +2,14 @@
   font-family: Arial;
   font-size: 120%;
 }
-
 a {
   color: #563d7c;
   text-decoration: none;
   transition: color 0.1s;
 }
-
 a:hover {
   color: #8570a5;
 }
-
 button {
   display: inline-block;
   margin: 5px;
@@ -25,53 +22,39 @@ button {
   border: 0;
   transition: background-color 0.1s;
 }
-
 button:hover {
   background-color: #8570a5;
 }
-
-.choices button {
-  display: block;
-}
-
 input[type="text"] {
   font-size: 100%;
 }
-
 ol {
   padding-left: 0px;
   max-height: 400px;
   overflow: auto;
 }
-
 li {
   padding: 5px;
   list-style: decimal inside none;
 }
-
 li:nth-child(odd) {
   background-color: #f3edfc;
 }
-
 .wrapper {
   margin: 100px auto 0 auto;
   max-width: 600px;
 }
-
 .hide {
   display: none;
 }
-
 .start {
   text-align: center;
 }
-
 .scores {
   position: absolute;
   top: 10px;
   left: 10px;
 }
-
 .feedback {
   font-style: italic;
   font-size: 120%;
@@ -80,7 +63,6 @@ li:nth-child(odd) {
   color: gray;
   border-top: 2px solid #ccc;
 }
-
 .timer {
   position: absolute;
   top: 10px;
