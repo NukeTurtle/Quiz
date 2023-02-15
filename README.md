@@ -1,11 +1,26 @@
-# Module 6 Challenge Web APIs: Code Quiz
+# Quiz
 
-## Your Task
+## Description
 
-As you proceed in your journey to becoming a front-end web developer, it’s likely that you’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
+In this Challenge, I'll create a timed, multiple-choice coding quiz that can keep track of high scores and quiz-takers' initials.
 
-To help you become familiar with these tests and give you a chance to apply the skills from this module, this week’s challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. This week’s coursework has taught you all the skills you need to succeed in this challenge.
- 
+## Table of Contents
+
+* [Instructions](#My-Task)
+* [User-Story](#User-Story)
+* [Acceptance-Criteria](#Acceptance-Criteria)
+* [Mock-Up](#Mock-Up)
+* [Technical Acceptance Criteria: 40%](#Technical-Acceptance-Criteria-40)
+* [Deployment: 32%](#Deployment-32)
+* [Application Quality: 15%](#Application-Quality-15)
+* [Repository Quality: 13%](#Repository-Quality-13)
+* [Badges🏆](#Badges)
+
+## My Task
+
+As I proceed in my journey to becoming a front-end web developer, it’s likely that I’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
+
+To help me become familiar with these tests and give me a chance to apply the skills from this module, this week’s challenge invites me to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that I write. It will have a clean, polished, and responsive user interface.
 
 ## User Story
 
@@ -17,19 +32,19 @@ SO THAT I can gauge my progress compared to my peers
 
 ## Acceptance Criteria
 
-Create a code quiz that contains the following requirements:
-
-* A start button that when clicked a timer starts and the first question appears.
- 
-  * Questions contain buttons for each answer.
-  * 
-  * When answer is clicked, the next question appears
-  * 
-  * If the answer clicked was incorrect then subtract time from the clock
-
-* The quiz should end when all questions are answered or the timer reaches 0.
-
-  * When the game ends, it should display their score and give the user the ability to save their initials and their score
+```
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
+```
   
 ## Mock-Up
 
@@ -41,11 +56,11 @@ The following animation demonstrates the application functionality:
 
 This challenge is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+### Technical Acceptance Criteria: ```40%```
 
 * Satisfies all of the above acceptance criteria.
 
-### Deployment: 32%
+### Deployment: ```32%```
 
 * Application deployed at live URL.
 
@@ -55,7 +70,7 @@ This challenge is graded based on the following criteria:
 
 * GitHub repository that contains application code.
 
-### Application Quality: 15%
+### Application Quality: ```15%```
 
 * Application user experience is intuitive and easy to navigate.
 
@@ -63,7 +78,7 @@ This challenge is graded based on the following criteria:
 
 * Application resembles the mock-up functionality provided in the challenge instructions.
 
-### Repository Quality: 13%
+### Repository Quality: ```13%```
 
 * Repository has a unique name.
 
@@ -75,14 +90,13 @@ This challenge is graded based on the following criteria:
 
 * Repository contains quality README file with description, screenshot, and link to deployed application.
 
+## Badges🏆
 
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+![badmath](https://img.shields.io/github/languages/top/nuketurtle/Quiz)
+![badmath](https://img.shields.io/github/repo-size/nuketurtle/Quiz)
+![badmath](https://img.shields.io/github/commits-since/nuketurtle/Quiz/817ef2b?label=Total%20comits%20since%20first)
+![badmath](https://img.shields.io/github/last-commit/nuketurtle/Quiz)
 
 ---
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+[Elvis Stiglic](https://www.linkedin.com/in/elvisstiglic) © ```2023```
